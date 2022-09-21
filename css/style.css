@@ -1,0 +1,324 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Trirong", serif;
+}
+
+.home{
+    width: 100%;
+    /* height: 100vh; */
+    background-color: skyblue;
+}
+
+/* navbar start */
+
+.navItem{
+    margin: 0 auto;
+}
+.navItem li{
+    margin-left: 25px;
+}
+
+/* navbar end */
+
+/* sectionA container start */
+
+.SA_containerBox{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.SA_box_1{
+    width: 30%;
+    /* padding: 20px 100px; */
+}
+.SA_box_1 h1{
+    font-size: 60px;
+    font-weight: bold ;
+    color: #fff;
+}
+.SA_box_1 p{
+    text-align: justify;
+    color: #fff;
+    font-size: 16px;
+    margin: 15px 0;
+}
+.SA_box_1 button{
+    padding: 10px 25px;
+    background-color: blue;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+.SA_box_2{
+    width: 70%;
+    text-align: end;
+    display: flex;
+    justify-content: end;
+}
+.SA_imgBox{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-top-left-radius:50%;
+    border-top-right-radius: 50%;
+    background-color: aqua;
+}
+.SA_imgBox img{
+    width: 100%;
+}
+
+/* sectionA container end */
+
+/* sectionB container start */
+
+.SB_container{
+    width: 100%;
+    /* text-align: center; */
+}
+.SB_header{
+    text-align: center;
+}
+.SB_header h1{
+    font-size: 60px;
+
+}
+.SB_boxContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.SB_box{
+    width: 100%;
+    max-width: 360px;
+    height: 360px;
+    margin: 10px;
+    background-color: aqua;
+    /* border: 1px solid black; */
+}
+.SB_imgbox{
+    width: 100%;
+    height: 320px;
+    background-color: red;
+    margin-bottom: 5px;
+}
+.SB_imgbox img{
+    width: 100%;
+    height: 100%;
+}
+.SB_box p{
+    font-size: 18px;
+}
+
+/* sectionB container end */
+
+/* sectionC container start */
+
+.SC_container{
+    margin-top: 60px;
+
+}
+.SC_containerBox{
+    width: 100%;
+    background-color:skyblue;
+    border-top-right-radius: 200px;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center ;
+    position: relative;
+}
+.SC_imgBox{
+    /* height: 300px; */
+    position: relative;
+    width: 40%;
+}
+.SC_imgBox img{
+    width: 100%;
+    height: 200%;
+}
+.SC_content{
+    width: 60%;
+    padding: 0px 60px;
+}
+.SC_content  h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.SC_content p{
+    font-size: 25px;
+}
+/* sectionC container end */
+
+/* sectionD container start */
+
+.SD_container{
+    margin-top: 30px;
+}
+.SD_header{
+    font-size: 30;
+    text-align: center;
+}
+.SD_cardContainer {
+    width: 100%;
+    display: flex;
+}
+
+.SD_card{
+    width: calc(1240px/3);
+    padding: 20px;
+    padding-top: 35px;
+    margin: 10px;
+    background-color: red;
+}
+.SD_iconBox{
+    width: 60px;
+    height: 60px;
+    background-color: blue;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SD_iconBox i{
+    color: #fff;
+    font-size: 28px;
+}
+.SD_card h3{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+/* sectionD container end */
+
+/* sectionE container start */
+
+.SE_container{
+    margin-top: 50px;
+}
+.SE_containerBox{
+    background-color: skyblue;
+    border-bottom-left-radius: 200px;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.SE_content{
+
+    width: 50%;
+}
+.SE_content p{
+    font-size: 20px;
+}
+.SE_imgBox{
+    width: 40%;
+
+}
+.SE_imgBox img{
+    width: 100%;
+    /* height: 100%; */
+}
+/* sectionE container end */
+
+/* sectionF container start */
+
+.SF_container{
+    width: 100%;
+}
+.SF_header{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.SF_header h1{
+    font-size: 60px;
+}
+/* .SF_cardContainer{
+    display: flex;
+} */
+.SF_cardContainer {
+    width: 100%;
+    display: flex;
+}
+.SF_card{
+    width: calc(1240px/3);
+    padding: 20px;
+    padding-top: 35px;
+    background-color: red;
+    margin: 10px;
+    
+}
+.SF_card p{
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+    line-height:28px;
+}
+.SF_userBox{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+.SF_imgBox{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: blue;
+    margin-right:15px ;
+}
+/* sectionF container end */
+
+/* footer section start */
+
+.footerContainer{
+    width: 100%;
+    display: flex;
+    padding-top: 20px;
+    margin-top: 50px;
+    background-color: skyblue;
+}
+.F_box1{
+    width: 50%;
+    padding:20px 60px;
+}
+.F_inputBox{
+    display: flex;
+    border: 1px solid black;
+    width: 100%;
+    max-width: 400px;
+}
+.F_inputBox input{
+    width: 70%;
+    font-size: 17px;
+    padding: 10px;
+    margin: 0;
+    background-color: red;
+}
+.F_inputBox button{
+    width: 30%;
+    background-color:blue;
+    font-size: 17px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0;
+    margin: 0;
+    margin: 0;
+}
+.F_box2, .F_box3{
+    width: 25%;
+    padding: 20px ;
+}
+.F_box2 div{
+    font-size: 20px;
+    margin-top: 15px;
+} 
+.F_box3 p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+/* footer section end
